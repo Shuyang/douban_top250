@@ -1,0 +1,1790 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans" class=" book-new-nav">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>豆瓣图书 Top250</title>
+  
+<script>!function(f){var h=function(o,n,m){var k=new Date(),j,l;n=n||30;m=m||"/";k.setTime(k.getTime()+(n*24*60*60*1000));j="; expires="+k.toGMTString();for(l in o){f.cookie=l+"="+o[l]+j+"; path="+m}},d=function(m){var l=m+"=",o,n,j,k=f.cookie.split(";");for(n=0,j=k.length;n<j;n++){o=k[n].replace(/^\s+|\s+$/g,"");if(o.indexOf(l)==0){return o.substring(l.length,o.length).replace(/\"/g,"")}}return null},e=f.write,b={"douban.com":1,"douban.fm":1,"google.com":1,"google.cn":1,"googleapis.com":1,"gmaptiles.co.kr":1,"gstatic.com":1,"gstatic.cn":1,"google-analytics.com":1,"googleadservices.com":1},a=function(l,k){var j=new Image();j.onload=function(){};j.src="https://www.douban.com/j/except_report?kind=ra022&reason="+encodeURIComponent(l)+"&environment="+encodeURIComponent(k)},i=function(k){try{e.call(f,k)}catch(j){e(k)}},c=/<script.*?src\=["']?([^"'\s>]+)/ig,g=/http:\/\/(.+?)\.([^\/]+).+/i;f.writeln=f.write=function(k){var j=c.exec(k),l;if(!j){i(k);return}l=g.exec(j[1]);if(!l){i(k);return}if(b[l[2]]){i(k);return}if(d("hj")==="tqs"){return}a(j[1],location.href);h({hj:"tqs"},1);setTimeout(function(){location.replace(location.href)},50)}}(document);</script>
+
+  
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+  
+  <script>var _head_start = new Date();</script>
+  
+  <link href="https://img3.doubanio.com/f/book/4b96ff7f14f7e4afc66325721537b53f3a647545/css/book/master.css" rel="stylesheet" type="text/css">
+
+  <style type="text/css"></style>
+  <script src="https://img3.doubanio.com/f/book/e9d9543ebc06f2964039a2e94898f84ce77fc070/js/book/lib/jquery/jquery.js"></script>
+  <script src="https://img3.doubanio.com/f/book/a6892ab00af6802bd6e4dcf8638724b1963802c0/js/book/master.js"></script>
+  
+
+  
+  <script>  </script>
+  <link rel="stylesheet" href="https://img3.doubanio.com/misc/mixed_static/6fa23ff99fc6d55b.css">
+
+  <link rel="shortcut icon" href="https://img3.doubanio.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script>var _body_start = new Date();</script>
+    
+  
+  
+  
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav">
+  <div class="bd">
+    
+
+
+
+
+
+<div class="top-nav-info">
+      
+      <a href="https://www.douban.com/accounts/login?source=book" class="nav-login" rel="nofollow">登录</a>
+      <a href="https://www.douban.com/accounts/register?source=book" class="nav-register" rel="nofollow">注册</a>
+</div>
+
+
+    <div class="top-nav-doubanapp">
+        
+        <a href="https://www.douban.com/doubanapp/app?channel=top-nav" class="lnk-doubanapp">下载豆瓣客户端</a>
+        <div id="top-nav-appintro" class="more-items">
+            <p class="appintro-title">豆瓣</p>
+            <p class="slogan">我们的精神角落</p>
+            <p class="qrcode">
+                扫码直接下载
+            </p>
+            <div class="download">
+                <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=iOS">iPhone</a>
+                <span>·</span>
+                <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=Android" class="download-android">Android</a>
+            </div>
+        </div>
+        <div id="doubanapp-tip">
+            <a href="https://www.douban.com/doubanapp/app?channel=qipao" class="tip-link">豆瓣 4.0 全新发布</a>
+            <a href="javascript: void 0;" class="tip-close">×</a>
+        </div>
+    </div>
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li class="">
+            <a href="https://www.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-main&#34;,&#34;uid&#34;:&#34;0&#34;}">豆瓣</a>
+            </li>
+          
+            
+            <li class="on">
+            <a href="https://book.douban.com/" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-book&#34;,&#34;uid&#34;:&#34;0&#34;}">读书</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://movie.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-movie&#34;,&#34;uid&#34;:&#34;0&#34;}">电影</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://music.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-music&#34;,&#34;uid&#34;:&#34;0&#34;}">音乐</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://www.douban.com/location/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-location&#34;,&#34;uid&#34;:&#34;0&#34;}">同城</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://www.douban.com/group/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-group&#34;,&#34;uid&#34;:&#34;0&#34;}">小组</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-read&#34;,&#34;uid&#34;:&#34;0&#34;}">阅读</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://douban.fm/?from_=shire_top_nav" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-fm&#34;,&#34;uid&#34;:&#34;0&#34;}">FM</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://dongxi.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-commodity&#34;,&#34;uid&#34;:&#34;0&#34;}">东西</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://market.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-market&#34;,&#34;uid&#34;:&#34;0&#34;}">市集</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="https://moment.douban.com" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-moment&#34;,&#34;uid&#34;:&#34;0&#34;}">一刻</a></td></tr>
+                    
+                    <tr><td><a href="https://ypy.douban.com" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-ypy&#34;,&#34;uid&#34;:&#34;0&#34;}">一拍一</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<div id="db-nav-book" class="nav">
+  <div class="nav-wrap">
+    <div class="nav-primary">
+      <div class="nav-logo">
+        <a href="https://book.douban.com">豆瓣读书</a>
+      </div>
+      <div class="nav-search">
+        <form action="https://book.douban.com/subject_search" method="get">
+          <fieldset>
+            <legend>搜索：</legend>
+            <label for="inp-query">书名、作者、ISBN</label>
+            <div class="inp">
+              <input id="inp-query" name="search_text" size="22" maxlength="60"
+                value="">
+            </div>
+            <div class="inp-btn">
+              <input type="submit" value="搜索">
+            </div>
+            <input type="hidden" name="cat" value="1001">
+          </fieldset>
+        </form>
+        <style>
+            .nav-search,
+            .nav .nav-primary {
+                overflow: visible !important;
+            }
+
+            .nav-search {
+                margin-left: 145px;
+            }
+        </style>
+      </div>
+    </div>
+  </div>
+  <div class="nav-secondary">
+    
+    <ul class="nav-items">
+      <li
+        class="nav-item-first"
+      ><a href="https://book.douban.com/tag/">分类浏览</a></li>
+      
+      <li class="book-cart ">
+        <a href="https://book.douban.com/cart">购书单</a>
+      </li>
+      <li>
+        <a href="https://read.douban.com/ebooks/?dcs=book-nav&amp;dcm=douban" target="_blank">电子图书</a>
+      </li>
+      <li>
+        <a href="https://market.douban.com/book?platform=web&amp;channel=book_nav">纸书</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  
+  <script type="text/template" id="suggest-item">
+    <li class="item"><a href="#">{{= item}}</a></li>
+  </script>
+  
+  
+
+
+
+    <div id="wrapper">
+        
+        
+  <div id="content">
+    
+    <h1>豆瓣图书 Top250</h1>
+
+    <div class="grid-16-8 clearfix">
+      
+      <div class="article">
+  <div class="indent">
+    
+  
+
+        <p class="ulfirst"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1083428/"
+              onclick="moreurl(this,{i:'0'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s4250062.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1083428/" onclick=&#34;moreurl(this,{i:&#39;0&#39;})&#34; title="傲慢与偏见"
+                
+              >
+                傲慢与偏见
+
+                
+              </a>
+
+
+
+
+              
+                <br/>
+                <span style="font-size:12px;">Pride and Prejudice</span>
+            </div>
+
+              <p class="pl">[英] 奥斯丁 / 张玲 / 人民文学出版社 / 1993-7 / 13.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.8</span>
+
+                <span class="pl">(
+                    78208人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/4242172/"
+              onclick="moreurl(this,{i:'1'})"
+
+              >
+              <img src="https://img1.doubanio.com/spic/s6340977.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/4242172/" onclick=&#34;moreurl(this,{i:&#39;1&#39;})&#34; title="天才在左 疯子在右"
+                
+              >
+                天才在左 疯子在右
+
+                
+                  <span style="font-size:12px;"> : 国内第一本精神病人访谈手记 </span>
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">高铭 / 武汉大学出版社 / 2010-2 / 29.80元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.3</span>
+
+                <span class="pl">(
+                    81108人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1873231/"
+              onclick="moreurl(this,{i:'2'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s1872653.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1873231/" onclick=&#34;moreurl(this,{i:&#39;2&#39;})&#34; title="明朝那些事儿（壹）"
+                
+              >
+                明朝那些事儿（壹）
+
+                
+                  <span style="font-size:12px;"> : 洪武大帝 </span>
+              </a>
+
+
+
+                &nbsp; <img src="https://img3.doubanio.com/pics/read.gif" alt="可试读" title="可试读"/>
+
+              
+            </div>
+
+              <p class="pl">当年明月 / 中国友谊出版公司 / 2006-9 / 24.80</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.8</span>
+
+                <span class="pl">(
+                    75469人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1071241/"
+              onclick="moreurl(this,{i:'3'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s1074376.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1071241/" onclick=&#34;moreurl(this,{i:&#39;3&#39;})&#34; title="哈利·波特与阿兹卡班的囚徒"
+                
+              >
+                哈利·波特与阿兹卡班的囚徒
+
+                
+              </a>
+
+
+
+
+              
+                <br/>
+                <span style="font-size:12px;">Harry Potter and the Prisoner of Azkaban</span>
+            </div>
+
+              <p class="pl">[英] J. K. 罗琳 / 郑须弥 / 人民文学出版社 / 2000-9 / 26.50元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.9</span>
+
+                <span class="pl">(
+                    68433人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/3066477/"
+              onclick="moreurl(this,{i:'4'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s4542660.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/3066477/" onclick=&#34;moreurl(this,{i:&#39;4&#39;})&#34; title="三体Ⅱ"
+                
+              >
+                三体Ⅱ
+
+                
+                  <span style="font-size:12px;"> : 黑暗森林 </span>
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">刘慈欣 / 重庆出版社 / 2008-5 / 32.00</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar50"></span>
+                  <span class="rating_nums">9.2</span>
+
+                <span class="pl">(
+                    69224人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1039487/"
+              onclick="moreurl(this,{i:'5'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s1557672.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1039487/" onclick=&#34;moreurl(this,{i:&#39;5&#39;})&#34; title="哈利·波特与密室"
+                
+              >
+                哈利·波特与密室
+
+                
+              </a>
+
+
+
+                &nbsp; <img src="https://img3.doubanio.com/pics/read.gif" alt="可试读" title="可试读"/>
+
+              
+                <br/>
+                <span style="font-size:12px;">Harry Potter And The Chamber Of Secrets</span>
+            </div>
+
+              <p class="pl">[英] J. K. 罗琳 / 马爱新 / 人民文学出版社 / 2000-9 / 22.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.8</span>
+
+                <span class="pl">(
+                    66181人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1059406/"
+              onclick="moreurl(this,{i:'6'})"
+
+              >
+              <img src="https://img1.doubanio.com/spic/s1100387.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1059406/" onclick=&#34;moreurl(this,{i:&#39;6&#39;})&#34; title="幻城"
+                
+              >
+                幻城
+
+                
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">郭敬明 / 春风文艺出版社 / 2003-1 / 28.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar35"></span>
+                  <span class="rating_nums">7.1</span>
+
+                <span class="pl">(
+                    86184人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/5363767/"
+              onclick="moreurl(this,{i:'7'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s26012674.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/5363767/" onclick=&#34;moreurl(this,{i:&#39;7&#39;})&#34; title="三体Ⅲ"
+                
+              >
+                三体Ⅲ
+
+                
+                  <span style="font-size:12px;"> : 死神永生 </span>
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">刘慈欣 / 重庆出版社 / 2010-12-1 / 38.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar50"></span>
+                  <span class="rating_nums">9.2</span>
+
+                <span class="pl">(
+                    68936人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/2209098/"
+              onclick="moreurl(this,{i:'8'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s2652662.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/2209098/" onclick=&#34;moreurl(this,{i:&#39;8&#39;})&#34; title="致我们终将逝去的青春"
+                
+              >
+                致我们终将逝去的青春
+
+                
+              </a>
+
+
+
+                &nbsp; <img src="https://img3.doubanio.com/pics/read.gif" alt="可试读" title="可试读"/>
+
+              
+            </div>
+
+              <p class="pl">辛夷坞 / 朝华出版社 / 2007-8 / 25.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar40"></span>
+                  <span class="rating_nums">7.9</span>
+
+                <span class="pl">(
+                    77641人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1400705/"
+              onclick="moreurl(this,{i:'9'})"
+
+              >
+              <img src="https://img1.doubanio.com/spic/s1444578.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1400705/" onclick=&#34;moreurl(this,{i:&#39;9&#39;})&#34; title="情人"
+                
+              >
+                情人
+
+                
+              </a>
+
+
+
+
+              
+                <br/>
+                <span style="font-size:12px;">L&#39;Amant</span>
+            </div>
+
+              <p class="pl">[法] 玛格丽特·杜拉斯 / 王道乾 / 上海译文出版社 / 2005-7 / 20.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar40"></span>
+                  <span class="rating_nums">8.1</span>
+
+                <span class="pl">(
+                    76665人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/4886245/"
+              onclick="moreurl(this,{i:'10'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s4436571.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/4886245/" onclick=&#34;moreurl(this,{i:&#39;10&#39;})&#34; title="独唱团（第一辑）"
+                
+              >
+                独唱团（第一辑）
+
+                
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">韩寒 主编 / 书海出版社 / 2010-7-6 / 16.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar40"></span>
+                  <span class="rating_nums">7.8</span>
+
+                <span class="pl">(
+                    78584人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1529893/"
+              onclick="moreurl(this,{i:'11'})"
+
+              >
+              <img src="https://img1.doubanio.com/spic/s1513548.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1529893/" onclick=&#34;moreurl(this,{i:&#39;11&#39;})&#34; title="莲花"
+                
+              >
+                莲花
+
+                
+              </a>
+
+
+
+                &nbsp; <img src="https://img3.doubanio.com/pics/read.gif" alt="可试读" title="可试读"/>
+
+              
+            </div>
+
+              <p class="pl">安妮宝贝 / 作家出版社 / 2006-3 / 25.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar40"></span>
+                  <span class="rating_nums">8.0</span>
+
+                <span class="pl">(
+                    76007人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/3995526/"
+              onclick="moreurl(this,{i:'12'})"
+
+              >
+              <img src="https://img1.doubanio.com/spic/s3984108.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/3995526/" onclick=&#34;moreurl(this,{i:&#39;12&#39;})&#34; title="目送"
+                
+              >
+                目送
+
+                
+              </a>
+
+
+
+                &nbsp; <img src="https://img3.doubanio.com/pics/read.gif" alt="可试读" title="可试读"/>
+
+              
+            </div>
+
+              <p class="pl">龙应台 / 生活·读书·新知三联书店 / 2009-10 / 39.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.7</span>
+
+                <span class="pl">(
+                    70494人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/4742918/"
+              onclick="moreurl(this,{i:'13'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s4363464.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/4742918/" onclick=&#34;moreurl(this,{i:&#39;13&#39;})&#34; title="1Q84 BOOK 1"
+                
+              >
+                1Q84 BOOK 1
+
+                
+                  <span style="font-size:12px;"> : 4月～6月 </span>
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">[日] 村上春树 / 施小炜 / 南海出版公司 / 2010-5 / 36.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.3</span>
+
+                <span class="pl">(
+                    72284人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1022060/"
+              onclick="moreurl(this,{i:'14'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s1466042.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1022060/" onclick=&#34;moreurl(this,{i:&#39;14&#39;})&#34; title="狼图腾"
+                
+              >
+                狼图腾
+
+                
+              </a>
+
+
+
+                &nbsp; <img src="https://img3.doubanio.com/pics/read.gif" alt="可试读" title="可试读"/>
+
+              
+            </div>
+
+              <p class="pl">姜戎 / 长江文艺出版社 / 2004-4 / 32.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.3</span>
+
+                <span class="pl">(
+                    70973人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1041482/"
+              onclick="moreurl(this,{i:'15'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s1800355.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1041482/" onclick=&#34;moreurl(this,{i:&#39;15&#39;})&#34; title="万历十五年"
+                
+              >
+                万历十五年
+
+                
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">[美] 黄仁宇 / 生活·读书·新知三联书店 / 1997-5 / 18.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.9</span>
+
+                <span class="pl">(
+                    52676人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1009257/"
+              onclick="moreurl(this,{i:'16'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s1072746.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1009257/" onclick=&#34;moreurl(this,{i:&#39;16&#39;})&#34; title="哈利·波特与火焰杯"
+                
+              >
+                哈利·波特与火焰杯
+
+                
+              </a>
+
+
+
+                &nbsp; <img src="https://img3.doubanio.com/pics/read.gif" alt="可试读" title="可试读"/>
+
+              
+                <br/>
+                <span style="font-size:12px;">Harry Potter and the Goblet of Fire</span>
+            </div>
+
+              <p class="pl">[英] J. K. 罗琳 / 马爱新 / 人民文学出版社 / 2001-5 / 39.80元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.9</span>
+
+                <span class="pl">(
+                    66447人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1066462/"
+              onclick="moreurl(this,{i:'17'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s1557610.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1066462/" onclick=&#34;moreurl(this,{i:&#39;17&#39;})&#34; title="向左走·向右走"
+                
+              >
+                向左走·向右走
+
+                
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">幾米 / 生活·读书·新知三联书店 / 2002-8 / 16.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.4</span>
+
+                <span class="pl">(
+                    68734人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/3879301/"
+              onclick="moreurl(this,{i:'18'})"
+
+              >
+              <img src="https://img1.doubanio.com/spic/s10320248.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/3879301/" onclick=&#34;moreurl(this,{i:&#39;18&#39;})&#34; title="微微一笑很倾城"
+                
+              >
+                微微一笑很倾城
+
+                
+              </a>
+
+
+
+                &nbsp; <img src="https://img3.doubanio.com/pics/read.gif" alt="可试读" title="可试读"/>
+
+              
+            </div>
+
+              <p class="pl">顾漫 / 江苏文艺出版社 / 2009-8 / 25.00</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar40"></span>
+                  <span class="rating_nums">8.1</span>
+
+                <span class="pl">(
+                    70990人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1023045/"
+              onclick="moreurl(this,{i:'19'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s1015872.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1023045/" onclick=&#34;moreurl(this,{i:&#39;19&#39;})&#34; title="我们仨"
+                
+              >
+                我们仨
+
+                
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">杨绛 / 生活·读书·新知三联书店 / 2003-7 / 18.80元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.6</span>
+
+                <span class="pl">(
+                    64209人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1057244/"
+              onclick="moreurl(this,{i:'20'})"
+
+              >
+              <img src="https://img1.doubanio.com/spic/s1595557.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1057244/" onclick=&#34;moreurl(this,{i:&#39;20&#39;})&#34; title="边城"
+                
+              >
+                边城
+
+                
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">沈从文 / 北岳文艺出版社 / 2002-4 / 12.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.6</span>
+
+                <span class="pl">(
+                    61075人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/2062200/"
+              onclick="moreurl(this,{i:'21'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s2405994.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/2062200/" onclick=&#34;moreurl(this,{i:&#39;21&#39;})&#34; title="悲伤逆流成河"
+                
+              >
+                悲伤逆流成河
+
+                
+              </a>
+
+
+
+                &nbsp; <img src="https://img3.doubanio.com/pics/read.gif" alt="可试读" title="可试读"/>
+
+              
+            </div>
+
+              <p class="pl">郭敬明 / 长江文艺出版社 / 2007-5 / 24.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar35"></span>
+                  <span class="rating_nums">6.4</span>
+
+                <span class="pl">(
+                    79945人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1049219/"
+              onclick="moreurl(this,{i:'22'})"
+
+              >
+              <img src="https://img1.doubanio.com/spic/s1563589.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1049219/" onclick=&#34;moreurl(this,{i:&#39;22&#39;})&#34; title="长安乱"
+                
+              >
+                长安乱
+
+                
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">韩寒 / 中国青年出版社 / 2004-8 / 20.00元</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar40"></span>
+                  <span class="rating_nums">7.4</span>
+
+                <span class="pl">(
+                    70783人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1255625/"
+              onclick="moreurl(this,{i:'23'})"
+
+              >
+              <img src="https://img1.doubanio.com/spic/s23632058.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1255625/" onclick=&#34;moreurl(this,{i:&#39;23&#39;})&#34; title="天龙八部"
+                
+              >
+                天龙八部
+
+                
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">金庸 / 三联书店 / 1994-5 / 96.0</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">9.0</span>
+
+                <span class="pl">(
+                    52106人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+        <p class="ul"></p>
+
+      
+  
+
+      <table width="100%">
+        <tr class="item">
+          <td width="100" valign="top">
+            <a class="nbg" href="https://book.douban.com/subject/1082334/"
+              onclick="moreurl(this,{i:'24'})"
+
+              >
+              <img src="https://img3.doubanio.com/spic/s1790771.jpg" width="64" />
+            </a>
+          </td>
+          <td valign="top">
+            
+            <div class="pl2">
+
+
+              <a href="https://book.douban.com/subject/1082334/" onclick=&#34;moreurl(this,{i:&#39;24&#39;})&#34; title="穆斯林的葬礼"
+                
+              >
+                穆斯林的葬礼
+
+                
+              </a>
+
+
+
+
+              
+            </div>
+
+              <p class="pl">霍达 / 北京十月文艺出版社 / 1988-12-1 / 32.00</p>
+
+            
+
+              
+              <div class="star clearfix">
+                  <span class="allstar45"></span>
+                  <span class="rating_nums">8.3</span>
+
+                <span class="pl">(
+                    62339人评价
+                )</span>
+              </div>
+
+
+          </td>
+        </tr>
+      </table>
+
+    
+    
+    
+    
+        <div class="paginator">
+        <span class="prev">
+            <link rel="prev" href="https://book.douban.com/top250?start=0"/>
+            <a href="https://book.douban.com/top250?start=0" >&lt;前页</a>
+        </span>
+        
+        
+
+                
+            <a href="https://book.douban.com/top250?start=0" >1</a>
+        
+                <span class="thispage">2</span>
+                
+            <a href="https://book.douban.com/top250?start=50" >3</a>
+        
+                
+            <a href="https://book.douban.com/top250?start=75" >4</a>
+        
+                
+            <a href="https://book.douban.com/top250?start=100" >5</a>
+        
+                
+            <a href="https://book.douban.com/top250?start=125" >6</a>
+        
+                
+            <a href="https://book.douban.com/top250?start=150" >7</a>
+        
+                
+            <a href="https://book.douban.com/top250?start=175" >8</a>
+        
+                
+            <a href="https://book.douban.com/top250?start=200" >9</a>
+        
+                
+            <a href="https://book.douban.com/top250?start=225" >10</a>
+        
+        <span class="next">
+            <link rel="next" href="https://book.douban.com/top250?start=50"/>
+            <a href="https://book.douban.com/top250?start=50" >后页&gt;</a>
+        </span>
+
+        </div>
+
+
+  </div>
+</div>
+      <div class="aside">
+        
+  <span class="indent pl">
+    豆瓣用户每天都在对“读过”的书进行“很差”到“力荐”的评价，豆瓣根据每本书读过的人数以及该书所得的评价等综合数据，通过算法分析产生了豆瓣图书250。
+  </span>
+
+      </div>
+      <div class="extra">
+        
+      </div>
+    </div>
+  </div>
+
+        
+  <div id="footer">
+    
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2016 douban.com, all rights reserved 北京豆网科技有限公司
+</span>
+
+<a href="https://www.douban.com/hnypt/variformcyst.py" style="display: none;"></a>
+
+<span class="fright">
+    <a href="https://www.douban.com/about">关于豆瓣</a>
+    · <a href="https://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="https://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="https://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="https://help.douban.com/?app=book" target="_blank">帮助中心</a>
+    · <a href="https://book.douban.com/library_invitation">图书馆合作</a>
+    · <a href="https://www.douban.com/doubanapp/">移动应用</a>
+    · <a href="https://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+  </div>
+
+    </div>
+    <script type="text/javascript" src="https://img3.doubanio.com/misc/mixed_static/1950fbadab5c2c46.js"></script>
+    <!-- mako -->
+    
+    
+  
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var p=(('https:' == document.location.protocol) ? 'https' : 'http'), u=p+'://fundin.douban.com/';
+    _paq.push(['setTrackerUrl', u+'piwik']);
+    _paq.push(['setSiteId', '100001']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; 
+    g.type='text/javascript';
+    g.defer=true; 
+    g.async=true; 
+    g.src=p+'://s.doubanio.com/dae/fundin/piwik.js';
+    s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<script type="text/javascript">
+var setMethodWithNs = function(namespace) {
+  var ns = namespace ? namespace + '.' : ''
+    , fn = function(string) {
+        if(!ns) {return string}
+        return ns + string
+      }
+  return fn
+}
+
+var gaWithNamespace = function(fn, namespace) {
+  var method = setMethodWithNs(namespace)
+  fn.call(this, method)
+}
+
+var _gaq = _gaq || []
+  , accounts = [
+      { id: 'UA-7019765-1', namespace: 'douban' }
+    , { id: 'UA-7019765-16', namespace: '' }
+    ]
+  , gaInit = function(account) {
+      gaWithNamespace(function(method) {
+        gaInitFn.call(this, method, account)
+      }, account.namespace)
+    }
+  , gaInitFn = function(method, account) {
+      _gaq.push([method('_setAccount'), account.id])
+
+      
+  _gaq.push([method('_addOrganic'), 'google', 'q'])
+  _gaq.push([method('_addOrganic'), 'baidu', 'wd'])
+  _gaq.push([method('_addOrganic'), 'soso', 'w'])
+  _gaq.push([method('_addOrganic'), 'youdao', 'q'])
+  _gaq.push([method('_addOrganic'), 'so.360.cn', 'q'])
+  _gaq.push([method('_addOrganic'), 'sogou', 'query'])
+  if (account.namespace) {
+    _gaq.push([method('_addIgnoredOrganic'), '豆瓣'])
+    _gaq.push([method('_addIgnoredOrganic'), 'douban'])
+    _gaq.push([method('_addIgnoredOrganic'), '豆瓣网'])
+    _gaq.push([method('_addIgnoredOrganic'), 'www.douban.com'])
+  }
+
+      if (account.namespace === 'douban') {
+        _gaq.push([method('_setDomainName'), '.douban.com'])
+      }
+
+        _gaq.push([method('_setCustomVar'), 1, 'responsive_view_mode', 'desktop', 3])
+
+        _gaq.push([method('_setCustomVar'), 2, 'login_status', '0', 2]);
+
+      _gaq.push([method('_trackPageview')])
+    }
+
+for(var i = 0, l = accounts.length; i < l; i++) {
+  var account = accounts[i]
+  gaInit(account)
+}
+
+
+;(function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+})()
+</script>
+
+
+
+
+
+
+
+
+    <!-- dis8-docker-->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

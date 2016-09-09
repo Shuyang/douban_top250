@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans" class="">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="referrer" content="always">
+    <title>
+豆瓣电影TOP250
+</title>
+    
+    <meta name="baidu-site-verification" content="cZdR4xxR7RxmM4zE" />
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <link rel="apple-touch-icon" href="https://img3.doubanio.com/f/movie/d59b2715fdea4968a450ee5f6c95c7d7a2030065/pics/movie/apple-touch-icon.png">
+    <link href="https://img3.doubanio.com/f/shire/82d7c82f084d5157d7b87a17c76af984dd23dbbf/css/douban.css" rel="stylesheet" type="text/css">
+    <link href="https://img3.doubanio.com/f/shire/ae3f5a3e3085968370b1fc63afcecb22d3284848/css/separation/_all.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">var _head_start = new Date();</script>
+    <script type="text/javascript" src="https://img3.doubanio.com/f/movie/e9d9543ebc06f2964039a2e94898f84ce77fc070/js/movie/lib/jquery.js"></script>
+    <script type="text/javascript" src="https://img3.doubanio.com/f/shire/71ac0453da20ef0d46981120323c692ebfc729b5/js/douban.js"></script>
+    <script type="text/javascript" src="https://img3.doubanio.com/f/shire/0a62663763aed4fe860029f99d1755b8caa524e7/js/separation/_all.js"></script>
+    
+<link href="https://img3.doubanio.com/f/movie/dcfd6c93a0b44f2495c6ab3cdf21d8508b97bb03/css/movie/top_movies.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://img3.doubanio.com/f/shire/29449d396dacb28fd9949c709ccf02a46b910156/js/do.js" data-cfg-autoload="false"></script>
+<script type='text/javascript'>
+    Do.ready(function(){
+            $("#mine-selector input[type='checkbox']").click(function(){
+                var val = $(this).is(":checked")?$(this).val():"";
+                window.location.href = '/top250?filter=' + val;
+            })
+    })
+</script>
+
+    <style type="text/css">
+.site-nav-logo img{margin-bottom:0;}
+</style>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="https://img3.doubanio.com/misc/mixed_static/63843dca20752674.css">
+
+    <link rel="shortcut icon" href="https://img3.doubanio.com/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav">
+  <div class="bd">
+    
+
+
+
+
+
+<div class="top-nav-info">
+      
+      <a href="https://www.douban.com/accounts/login?source=movie" class="nav-login" rel="nofollow">登录</a>
+      <a href="https://www.douban.com/accounts/register?source=movie" class="nav-register" rel="nofollow">注册</a>
+</div>
+
+
+    <div class="top-nav-doubanapp">
+        
+        <a href="https://www.douban.com/doubanapp/app?channel=top-nav" class="lnk-doubanapp">下载豆瓣客户端</a>
+        <div id="top-nav-appintro" class="more-items">
+            <p class="appintro-title">豆瓣</p>
+            <p class="slogan">我们的精神角落</p>
+            <p class="qrcode">
+                扫码直接下载
+            </p>
+            <div class="download">
+                <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=iOS">iPhone</a>
+                <span>·</span>
+                <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=Android" class="download-android">Android</a>
+            </div>
+        </div>
+        <div id="doubanapp-tip">
+            <a href="https://www.douban.com/doubanapp/app?channel=qipao" class="tip-link">豆瓣 4.0 全新发布</a>
+            <a href="javascript: void 0;" class="tip-close">×</a>
+        </div>
+    </div>
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li class="">
+            <a href="https://www.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-main&#34;,&#34;uid&#34;:&#34;0&#34;}">豆瓣</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://book.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-book&#34;,&#34;uid&#34;:&#34;0&#34;}">读书</a>
+            </li>
+          
+            
+            <li class="on">
+            <a href="https://movie.douban.com/" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-movie&#34;,&#34;uid&#34;:&#34;0&#34;}">电影</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://music.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-music&#34;,&#34;uid&#34;:&#34;0&#34;}">音乐</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://www.douban.com/location/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-location&#34;,&#34;uid&#34;:&#34;0&#34;}">同城</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://www.douban.com/group/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-group&#34;,&#34;uid&#34;:&#34;0&#34;}">小组</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-read&#34;,&#34;uid&#34;:&#34;0&#34;}">阅读</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://douban.fm/?from_=shire_top_nav" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-fm&#34;,&#34;uid&#34;:&#34;0&#34;}">FM</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://dongxi.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-commodity&#34;,&#34;uid&#34;:&#34;0&#34;}">东西</a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://market.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-market&#34;,&#34;uid&#34;:&#34;0&#34;}">市集</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="https://moment.douban.com" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-moment&#34;,&#34;uid&#34;:&#34;0&#34;}">一刻</a></td></tr>
+                    
+                    <tr><td><a href="https://ypy.douban.com" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-ypy&#34;,&#34;uid&#34;:&#34;0&#34;}">一拍一</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="https://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="https://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- header ad begin -->
+    
+
+
+
+
+
+
+
+
+    <!-- header ad end -->
+
+  </div>
+  </div>
+  <div class="nav-secondary">
+      
+      <div class="nav-items nav-anon">
+          <ul>
+                                  
+                     <li><a href="https://movie.douban.com/nowplaying/">影讯&amp;购票</a></li>
+                 
+                     <li><a href="https://movie.douban.com/explore">选电影</a></li>
+                 
+                    <li class="site-nav-bt">
+                        <a href="https://movie.douban.com/tv/">电视剧</a>
+                    </li>
+                 
+                     <li><a href="https://movie.douban.com/chart">排行榜</a></li>
+                 
+                     <li><a href="https://movie.douban.com/tag/">分类</a></li>
+                 
+                     <li><a href="https://movie.douban.com/review/best/">影评</a></li>
+                 
+                     <li><a href="https://movie.douban.com/annual2015/">2015年度榜单</a></li>
+                 
+                     <li><a href="https://movie.douban.com/standbyme/?source=navigation">豆瓣观影报告</a></li>
+          
+          </ul>
+      </div>
+  </div>
+</div>
+
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}" onclick="moreurl(this, {from:'movie_search_sugg'})">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1>豆瓣电影TOP250</h1>
+
+        <div class="grid-16-8 clearfix">
+            
+            
+            <div class="article">
+                
+
+
+
+
+
+
+
+<div class="opt mod">
+    <div class="tabs">
+      
+    
+
+    </div>
+    <span id="mine-selector">
+      <input type="checkbox"  value="unwatched">我没看过的
+    </span>
+</div>
+
+
+
+<ol class="grid_view">
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">76</em>
+                    <a href="https://movie.douban.com/subject/1291545/">
+                        <img alt="大鱼" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p692813374.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1291545/" class="">
+                            <span class="title">大鱼</span>
+                                    <span class="title">&nbsp;/&nbsp;Big Fish</span>
+                                <span class="other">&nbsp;/&nbsp;大鱼奇缘(港)  /  大智若鱼(台)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: Tim Burton&nbsp;&nbsp;&nbsp;主演: Ewan McGregor / Albert Finney / Billy Crudup<br>
+                            2003&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情 家庭 奇幻 冒险
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>213790人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">抱着梦想而活着的人是幸福的，怀抱梦想而死去的人是不朽的。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">77</em>
+                    <a href="https://movie.douban.com/subject/1291875/">
+                        <img alt="阳光灿烂的日子" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p967457079.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1291875/" class="">
+                            <span class="title">阳光灿烂的日子</span>
+                                <span class="other">&nbsp;/&nbsp;In the Heat of the Sun</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 姜文 Wen Jiang&nbsp;&nbsp;&nbsp;主演: 夏雨 Yu Xia / 宁静 Jing Ning / 陶虹 Hong Tao<br>
+                            1994&nbsp;/&nbsp;中国大陆 香港&nbsp;/&nbsp;剧情
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>229192人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">一场华丽的意淫。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">78</em>
+                    <a href="https://movie.douban.com/subject/3742360/">
+                        <img alt="让子弹飞" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p1512562287.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/3742360/" class="">
+                            <span class="title">让子弹飞</span>
+                                <span class="other">&nbsp;/&nbsp;让子弹飞一会儿  /  火烧云</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 姜文 Wen Jiang&nbsp;&nbsp;&nbsp;主演: 姜文 Wen Jiang / 葛优 You Ge / 周润发 Yun-F...<br>
+                            2010&nbsp;/&nbsp;中国大陆 香港&nbsp;/&nbsp;剧情 喜剧 动作 西部
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>548845人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">你给我翻译翻译，神马叫做TMD的惊喜。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">79</em>
+                    <a href="https://movie.douban.com/subject/1316510/">
+                        <img alt="射雕英雄传之东成西就" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p1993903133.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1316510/" class="">
+                            <span class="title">射雕英雄传之东成西就</span>
+                                    <span class="title">&nbsp;/&nbsp;射鵰英雄傳之東成西就</span>
+                                <span class="other">&nbsp;/&nbsp;东成西就  /  大英雄 (日本)</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 刘镇伟 Jeffrey Lau&nbsp;&nbsp;&nbsp;主演: 梁朝伟 Tony Leung Chiu Wai / 林青霞 Bri...<br>
+                            1993&nbsp;/&nbsp;香港&nbsp;/&nbsp;喜剧 古装
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>232204人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">百看不厌。 </span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">80</em>
+                    <a href="https://movie.douban.com/subject/1296141/">
+                        <img alt="控方证人" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p1505392928.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1296141/" class="">
+                            <span class="title">控方证人</span>
+                                    <span class="title">&nbsp;/&nbsp;Witness for the Prosecution</span>
+                                <span class="other">&nbsp;/&nbsp;雄才伟略  /  情妇</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 比利·怀尔德 Billy Wilder&nbsp;&nbsp;&nbsp;主演: 查尔斯·劳顿 Charles Laughton / ...<br>
+                            1957&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情 犯罪 悬疑
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating5-t"></span>
+                                <span class="rating_num" property="v:average">9.5</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>51011人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">比利·怀德满分作品。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">81</em>
+                    <a href="https://movie.douban.com/subject/4917726/">
+                        <img alt="阳光姐妹淘" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p1374786017.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/4917726/" class="">
+                            <span class="title">阳光姐妹淘</span>
+                                    <span class="title">&nbsp;/&nbsp;써니</span>
+                                <span class="other">&nbsp;/&nbsp;阳光姊妹淘(港)  /  桑尼</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 姜炯哲 Hyeong-Cheol Kang&nbsp;&nbsp;&nbsp;主演: 沈恩京 Eun-kyung Shim / 闵孝琳 Hy...<br>
+                            2011&nbsp;/&nbsp;韩国&nbsp;/&nbsp;剧情 喜剧
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.8</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>225564人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">再多各自牛逼的时光，也比不上一起傻逼的岁月。 </span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">82</em>
+                    <a href="https://movie.douban.com/subject/1292208/">
+                        <img alt="上帝之城" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p455677490.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1292208/" class="">
+                            <span class="title">上帝之城</span>
+                                    <span class="title">&nbsp;/&nbsp;Cidade de Deus</span>
+                                <span class="other">&nbsp;/&nbsp;无主之城 (港)  /  无法无天 (台)</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: Kátia Lund / Fernando Meirelles&nbsp;&nbsp;&nbsp;主演: Alexandre Rodrigues / Lea...<br>
+                            2002&nbsp;/&nbsp;巴西 法国&nbsp;/&nbsp;犯罪 剧情
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.9</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>136597人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">被上帝抛弃了的上帝之城。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">83</em>
+                    <a href="https://movie.douban.com/subject/1418019/">
+                        <img alt="大闹天宫" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2184505167.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1418019/" class="">
+                            <span class="title">大闹天宫</span>
+                                <span class="other">&nbsp;/&nbsp;大闹天宫 上下集  /  The Monkey King</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 万籁鸣 Laiming Wan / 唐澄 Cheng  Tang&nbsp;&nbsp;&nbsp;主演: 邱岳峰 Yuefeng Qiu /...<br>
+                            1961(上集) / 1964(下集) / 1978(全本) / 2004(纪念版)&nbsp;/&nbsp;中国大陆&nbsp;/&nbsp;动画 奇幻
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">9.2</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>78585人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">经典之作，历久弥新。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">84</em>
+                    <a href="https://movie.douban.com/subject/1292679/">
+                        <img alt="春光乍泄" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p465939041.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1292679/" class="">
+                            <span class="title">春光乍泄</span>
+                                    <span class="title">&nbsp;/&nbsp;春光乍洩</span>
+                                <span class="other">&nbsp;/&nbsp;一起快乐  /  Happy Together</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 王家卫&nbsp;&nbsp;&nbsp;主演: 梁朝伟 / 张国荣 / 张震<br>
+                            1997&nbsp;/&nbsp;香港 日本 韩国&nbsp;/&nbsp;剧情 爱情 同性
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>195560人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">爱情纠缠，男女一致。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">85</em>
+                    <a href="https://movie.douban.com/subject/1291999/">
+                        <img alt="重庆森林" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2276728977.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1291999/" class="">
+                            <span class="title">重庆森林</span>
+                                    <span class="title">&nbsp;/&nbsp;重慶森林</span>
+                                <span class="other">&nbsp;/&nbsp;Chungking Express</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 王家卫 Kar Wai Wong&nbsp;&nbsp;&nbsp;主演: 林青霞 Brigitte Lin / 金城武 Takeshi K...<br>
+                            1994&nbsp;/&nbsp;香港&nbsp;/&nbsp;剧情 爱情
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.6</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>263047人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">寂寞没有期限。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">86</em>
+                    <a href="https://movie.douban.com/subject/1293318/">
+                        <img alt="萤火虫之墓" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p1157334208.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1293318/" class="">
+                            <span class="title">萤火虫之墓</span>
+                                    <span class="title">&nbsp;/&nbsp;火垂るの墓</span>
+                                <span class="other">&nbsp;/&nbsp;再见萤火虫(港)  /  萤火挽歌</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 高畑勋 Isao Takahata&nbsp;&nbsp;&nbsp;主演: 辰己努 / 白石绫乃 / 志乃原良子<br>
+                            1988&nbsp;/&nbsp;日本&nbsp;/&nbsp;动画 剧情 战争
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>175852人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">幸福是生生不息，却难以触及的远。 </span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">87</em>
+                    <a href="https://movie.douban.com/subject/2334904/">
+                        <img alt="禁闭岛" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p1832875827.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/2334904/" class="">
+                            <span class="title">禁闭岛</span>
+                                    <span class="title">&nbsp;/&nbsp;Shutter Island</span>
+                                <span class="other">&nbsp;/&nbsp;不赦岛(港)  /  隔离岛(台)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: Martin Scorsese&nbsp;&nbsp;&nbsp;主演: 莱昂纳多·迪卡普里奥 Leonardo DiCaprio / ...<br>
+                            2010&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情 悬疑 惊悚
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.6</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>301648人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">昔日翩翩少年，今日大腹便便。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">88</em>
+                    <a href="https://movie.douban.com/subject/21937452/">
+                        <img alt="素媛" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2118532944.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/21937452/" class="">
+                            <span class="title">素媛</span>
+                                    <span class="title">&nbsp;/&nbsp;소원</span>
+                                <span class="other">&nbsp;/&nbsp;许愿  /  希望：为爱重生(台)</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 李濬益 Jun-ik Lee&nbsp;&nbsp;&nbsp;主演: 薛景求 Kyung-gu Sol / 严志媛 Ji-won Uhm ...<br>
+                            2013&nbsp;/&nbsp;韩国&nbsp;/&nbsp;剧情 家庭
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">9.0</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>126262人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">受过伤害的人总是笑得最开心，因为他们不愿意让身边的人承受一样的痛苦。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">89</em>
+                    <a href="https://movie.douban.com/subject/1297192/">
+                        <img alt="致命ID" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p453720880.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1297192/" class="">
+                            <span class="title">致命ID</span>
+                                    <span class="title">&nbsp;/&nbsp;Identity</span>
+                                <span class="other">&nbsp;/&nbsp;杀人游戏  /  致命身份</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: James Mangold&nbsp;&nbsp;&nbsp;主演: John Cusack / Ray Liotta / Amanda Peet<br>
+                            2003&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情 悬疑 惊悚
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.6</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>264118人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">最不可能的那个人永远是最可能的。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">90</em>
+                    <a href="https://movie.douban.com/subject/4268598/">
+                        <img alt="告白" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p689520756.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/4268598/" class="">
+                            <span class="title">告白</span>
+                                <span class="other">&nbsp;/&nbsp;自白  /  母亲</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 中岛哲也 Tetsuya Nakashima&nbsp;&nbsp;&nbsp;主演: 松隆子 Takako Matsu / 冈田将生 ...<br>
+                            2010&nbsp;/&nbsp;日本&nbsp;/&nbsp;剧情 惊悚
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.6</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>285083人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">没有一人完全善，也没有一人完全恶。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">91</em>
+                    <a href="https://movie.douban.com/subject/1305164/">
+                        <img alt="甜蜜蜜" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2223011274.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1305164/" class="">
+                            <span class="title">甜蜜蜜</span>
+                                <span class="other">&nbsp;/&nbsp;Comrades: Almost a Love Story</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 陈可辛 Peter Chan&nbsp;&nbsp;&nbsp;主演: 黎明 Leon Lai / 张曼玉 Maggie Cheung / ...<br>
+                            1996&nbsp;/&nbsp;香港&nbsp;/&nbsp;剧情 爱情
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>196195人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">逢只要一瞬间，等待却像是一辈子。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">92</em>
+                    <a href="https://movie.douban.com/subject/1292434/">
+                        <img alt="一一" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2119675128.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1292434/" class="">
+                            <span class="title">一一</span>
+                                <span class="other">&nbsp;/&nbsp;Yi yi  /  Yi yi: A One and a Two</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 杨德昌&nbsp;&nbsp;&nbsp;主演: 吴念真 / 李凯莉 Kelly Lee / 金燕玲 Elaine Jin<br>
+                            2000&nbsp;/&nbsp;台湾 日本&nbsp;/&nbsp;剧情 爱情 家庭
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.9</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>128476人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">我们都曾经是一一。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">93</em>
+                    <a href="https://movie.douban.com/subject/1296339/">
+                        <img alt="爱在黎明破晓前" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p1486234122.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1296339/" class="">
+                            <span class="title">爱在黎明破晓前</span>
+                                    <span class="title">&nbsp;/&nbsp;Before Sunrise</span>
+                                <span class="other">&nbsp;/&nbsp;情留半天(港)  /  爱在黎明破晓时(台)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 理查德·林克莱特 Richard Linklater&nbsp;&nbsp;&nbsp;主演: 伊桑·霍克 Ethan Hawke ...<br>
+                            1995&nbsp;/&nbsp;美国 奥地利 瑞士&nbsp;/&nbsp;剧情 爱情
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>181603人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">缘分是个连绵词，最美不过一瞬。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">94</em>
+                    <a href="https://movie.douban.com/subject/1298070/">
+                        <img alt="加勒比海盗" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p1596085504.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1298070/" class="">
+                            <span class="title">加勒比海盗</span>
+                                    <span class="title">&nbsp;/&nbsp;Pirates of the Caribbean: The Curse of the Black Pearl</span>
+                                <span class="other">&nbsp;/&nbsp;加勒比海盗1：黑珍珠号的诅咒  /  神鬼奇航：鬼盗船魔咒(台)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 戈尔·维宾斯基 Gore Verbinski&nbsp;&nbsp;&nbsp;主演: 约翰尼·德普 Johnny Depp / ...<br>
+                            2003&nbsp;/&nbsp;美国&nbsp;/&nbsp;动作 冒险 奇幻
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.5</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>283254人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">约翰尼·德普的独角戏。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">95</em>
+                    <a href="https://movie.douban.com/subject/1652587/">
+                        <img alt="阿凡达" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p1204213484.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1652587/" class="">
+                            <span class="title">阿凡达</span>
+                                    <span class="title">&nbsp;/&nbsp;Avatar</span>
+                                <span class="other">&nbsp;/&nbsp;天神下凡  /  化身</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 詹姆斯·卡梅隆 James Cameron&nbsp;&nbsp;&nbsp;主演: 萨姆·沃辛顿 Sam Worthington ...<br>
+                            2009&nbsp;/&nbsp;美国 英国&nbsp;/&nbsp;动作 冒险 奇幻 科幻
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.6</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>464383人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">绝对意义上的美轮美奂。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">96</em>
+                    <a href="https://movie.douban.com/subject/1291585/">
+                        <img alt="风之谷" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p1917567652.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1291585/" class="">
+                            <span class="title">风之谷</span>
+                                    <span class="title">&nbsp;/&nbsp;風の谷のナウシカ</span>
+                                <span class="other">&nbsp;/&nbsp;风谷少女  /  Kaze no tani no Naushika</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 宫崎骏 Hayao Miyazaki&nbsp;&nbsp;&nbsp;主演: 岛本须美 Sumi Shimamoto / 京田尚子 H...<br>
+                            1984&nbsp;/&nbsp;日本&nbsp;/&nbsp;科幻 动画 奇幻 冒险
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.8</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>149376人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">动画片的圣经。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">97</em>
+                    <a href="https://movie.douban.com/subject/1291990/">
+                        <img alt="爱在日落黄昏时" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p1910924055.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1291990/" class="">
+                            <span class="title">爱在日落黄昏时</span>
+                                    <span class="title">&nbsp;/&nbsp;Before Sunset</span>
+                                <span class="other">&nbsp;/&nbsp;日落巴黎(港)  /  爱在日落巴黎时(台)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 理查德·林克莱特 Richard Linklater&nbsp;&nbsp;&nbsp;主演: 伊桑·霍克 Ethan Hawke ...<br>
+                            2004&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情 爱情
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>169183人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">九年后的重逢是世俗和责任的交叠，没了悸动和青涩，沧桑而温暖。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">98</em>
+                    <a href="https://movie.douban.com/subject/2353023/">
+                        <img alt="驯龙高手" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p450042258.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/2353023/" class="">
+                            <span class="title">驯龙高手</span>
+                                    <span class="title">&nbsp;/&nbsp;How to Train Your Dragon</span>
+                                <span class="other">&nbsp;/&nbsp;驯龙记(港)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 迪恩·德布洛斯 Dean DeBlois / 克里斯·桑德斯 Chris Sanders&nbsp;&nbsp;&nbsp;主演:...<br>
+                            2010&nbsp;/&nbsp;美国&nbsp;/&nbsp;喜剧 动画 奇幻 冒险 家庭
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>244200人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">和谐的生活离不开摸头与被摸头。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">99</em>
+                    <a href="https://movie.douban.com/subject/1297052/">
+                        <img alt="侧耳倾听" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p456692072.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1297052/" class="">
+                            <span class="title">侧耳倾听</span>
+                                    <span class="title">&nbsp;/&nbsp;耳をすませば</span>
+                                <span class="other">&nbsp;/&nbsp;心之谷  /  梦幻街少女</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 近藤喜文 Yoshifumi Kondo&nbsp;&nbsp;&nbsp;主演: 本名阳子 Youko Honna / 小林桂树 K...<br>
+                            1995&nbsp;/&nbsp;日本&nbsp;/&nbsp;剧情 爱情 动画 音乐
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.8</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>138709人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">少女情怀总是诗。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">100</em>
+                    <a href="https://movie.douban.com/subject/3443389/">
+                        <img alt="海洋" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p497010372.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/3443389/" class="">
+                            <span class="title">海洋</span>
+                                    <span class="title">&nbsp;/&nbsp;Océans</span>
+                                <span class="other">&nbsp;/&nbsp;Oceans  /  海洋</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 雅克·贝汉 Jacques Perrin / 雅克·克鲁奥德 Jacques Cluzaud&nbsp;&nbsp;&nbsp;主演:...<br>
+                            2009&nbsp;/&nbsp;法国 瑞士 西班牙 美国 阿联酋&nbsp;/&nbsp;纪录片
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">9.0</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>89170人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">大海啊，不全是水。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+</ol>
+
+
+
+    
+    
+    
+
+        <div class="paginator">
+        <span class="prev">
+            <link rel="prev" href="?start=50&amp;filter="/>
+            <a href="?start=50&amp;filter=" >&lt;前页</a>
+        </span>
+        
+        
+
+                
+            <a href="?start=0&amp;filter=" >1</a>
+        
+                
+            <a href="?start=25&amp;filter=" >2</a>
+        
+                
+            <a href="?start=50&amp;filter=" >3</a>
+        
+                <span class="thispage">4</span>
+                
+            <a href="?start=100&amp;filter=" >5</a>
+        
+                
+            <a href="?start=125&amp;filter=" >6</a>
+        
+                
+            <a href="?start=150&amp;filter=" >7</a>
+        
+                
+            <a href="?start=175&amp;filter=" >8</a>
+        
+                
+            <a href="?start=200&amp;filter=" >9</a>
+        
+                
+            <a href="?start=225&amp;filter=" >10</a>
+        
+        <span class="next">
+            <link rel="next" href="?start=100&amp;filter="/>
+            <a href="?start=100&amp;filter=" >后页&gt;</a>
+        </span>
+
+            <span class="count">(共250条)</span>
+        </div>
+
+
+
+            </div>
+            <div class="aside">
+                
+<p class="pl">
+    豆瓣用户每天都在对“看过”的电影进行“很差”到“力荐”的评价，豆瓣根据每部影片看过的人数以及该影片所得的评价等综合数据，通过算法分析产生豆瓣电影250。
+</p>
+<div id="dale_movie_top250_bottom_right"></div>
+
+<!-- douban ad begin -->
+
+
+
+
+
+
+<div class="mobile-app-entrance block5 app-movie">
+    <a class="entrance-link" href="https://www.douban.com/doubanapp/frodo">
+        <div class="entrance-qrcode">
+            <img src="https://img3.doubanio.com/f/movie/a02f6ed325fc52e220f299d51e730c422e2bcd16/pics/movie/douban_app_ad/qrcode.png" alt="扫码下载豆瓣 App" width="80" height="80" />
+        </div>
+        <div class="entrance-info">
+            <span class="app-icon icon-movie"></span>
+            <span class="main-title">豆瓣</span>
+            <span class="sub-title">让好电影来找你</span>
+        </div>
+    </a>
+</div>
+
+<!-- douban ad end -->
+
+
+            </div>
+            <div class="extra">
+                
+            </div>
+        </div>
+    </div>
+
+        
+    <div id="footer">
+            <div class="footer-extra"></div>
+        
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2016 douban.com, all rights reserved 北京豆网科技有限公司
+</span>
+
+<a href="https://www.douban.com/hnypt/variformcyst.py" style="display: none;"></a>
+
+<span class="fright">
+    <a href="https://www.douban.com/about">关于豆瓣</a>
+    · <a href="https://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="https://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="https://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="https://help.douban.com/?app=movie" target="_blank">帮助中心</a>
+    · <a href="https://www.douban.com/doubanapp/">移动应用</a>
+    · <a href="https://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="https://img3.doubanio.com/misc/mixed_static/fd8032bc82407e0.js"></script>
+        
+        
+    <link rel="stylesheet" type="text/css" href="https://img3.doubanio.com/f/shire/8377b9498330a2e6f056d863987cc7a37eb4d486/css/ui/dialog.css" />
+    <link rel="stylesheet" type="text/css" href="https://img3.doubanio.com/f/movie/7345d4b259505f1a074773ce6b54f0253df2bb88/css/movie/mod/reg_login_pop.css" />
+    <script type="text/javascript" src="https://img3.doubanio.com/f/shire/29449d396dacb28fd9949c709ccf02a46b910156/js/do.js" data-cfg-autoload="false"></script>
+    <script type="text/javascript" src="https://img3.doubanio.com/f/shire/4b3bad5e25de78678d700dd5353570dce3e6bbcc/js/ui/dialog.js"></script>
+    <script type="text/javascript">
+        var HTTPS_DB='https://www.douban.com';
+var account_pop={open:function(e,b){if(b){referrer="?referrer="+encodeURIComponent(b)}else{referrer="?referrer="+window.location.href}var f="",a="",i=382;if(e==="reg"){f="用户注册";a="https://accounts.douban.com/popup/login?source=movie#popup_register";i=480}else{if(e==="login"){f="用户登录";a="https://accounts.douban.com/popup/login?source=movie"}}var h=document.location.protocol+"//"+document.location.hostname;var d=dui.Dialog({width:478,title:f,height:i,cls:"account_pop",isHideTitle:true,modal:true,content:"<iframe scrolling='no' frameborder='0' width='478' height='"+i+"' src='"+a+"' name='"+h+"'></iframe>"},true),c=d.node;c.undelegate();c.delegate(".dui-dialog-close","click",function(){var j=$("body");j.find("#login_msk").hide();j.find(".account_pop").remove()});if($(window).width()<478){var g="";if(e==="reg"){g=HTTPS_DB+"/accounts/register"+referrer}else{if(e==="login"){g=HTTPS_DB+"/accounts/login"+referrer}}window.location.href=g}else{d.open()}$(window).bind("message",function(j){if(j.originalEvent.origin==="https://accounts.douban.com"){c.find("iframe").css("height",j.originalEvent.data);c.height(j.originalEvent.data);d.update()}})}};if(Douban&&Douban.init_show_login){Douban.init_show_login=function(b){var a=$(b);a.click(function(){var c=a.data("ref")||"";account_pop.open("login",c);return false})}}Do(function(){$("body").delegate(".pop_register","click",function(b){b.preventDefault();var a=$(this).data("ref")||"";account_pop.open("reg",a);return false});$("body").delegate(".pop_login","click",function(b){b.preventDefault();var a=$(this).data("ref")||"";account_pop.open("login",a);return false})});
+    </script>
+
+    
+    
+
+
+
+
+    
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = '//erebor.douban.com/',
+            userId = '',
+            browserId = 'Ey6T8iWoCS4',
+            criteria = '3:/top250?start=75&amp;filter=',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_movie_top250_bottom_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'https://img3.doubanio.com/f/shire/256711a2a3fa720df625257c30ea5ab0062c8c9f/js/ad.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+    var p=(('https:' == document.location.protocol) ? 'https' : 'http'), u=p+'://fundin.douban.com/';
+    _paq.push(['setTrackerUrl', u+'piwik']);
+    _paq.push(['setSiteId', '100001']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript';
+    g.defer=true;
+    g.async=true;
+    g.src=p+'://img3.doubanio.com/dae/fundin/piwik.js';
+    s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+<script type="text/javascript">
+var setMethodWithNs = function(namespace) {
+  var ns = namespace ? namespace + '.' : ''
+    , fn = function(string) {
+        if(!ns) {return string}
+        return ns + string
+      }
+  return fn
+}
+
+var gaWithNamespace = function(fn, namespace) {
+  var method = setMethodWithNs(namespace)
+  fn.call(this, method)
+}
+
+var _gaq = _gaq || []
+  , accounts = [
+      { id: 'UA-7019765-1', namespace: 'douban' }
+    , { id: 'UA-7019765-19', namespace: '' }
+    ]
+  , gaInit = function(account) {
+      gaWithNamespace(function(method) {
+        gaInitFn.call(this, method, account)
+      }, account.namespace)
+    }
+  , gaInitFn = function(method, account) {
+      _gaq.push([method('_setAccount'), account.id]);
+      _gaq.push([method('_setSampleRate'), '5']);
+
+      
+  _gaq.push([method('_addOrganic'), 'google', 'q'])
+  _gaq.push([method('_addOrganic'), 'baidu', 'wd'])
+  _gaq.push([method('_addOrganic'), 'soso', 'w'])
+  _gaq.push([method('_addOrganic'), 'youdao', 'q'])
+  _gaq.push([method('_addOrganic'), 'so.360.cn', 'q'])
+  _gaq.push([method('_addOrganic'), 'sogou', 'query'])
+  if (account.namespace) {
+    _gaq.push([method('_addIgnoredOrganic'), '豆瓣'])
+    _gaq.push([method('_addIgnoredOrganic'), 'douban'])
+    _gaq.push([method('_addIgnoredOrganic'), '豆瓣网'])
+    _gaq.push([method('_addIgnoredOrganic'), 'www.douban.com'])
+  }
+
+      if (account.namespace === 'douban') {
+        _gaq.push([method('_setDomainName'), '.douban.com'])
+      }
+
+        _gaq.push([method('_setCustomVar'), 1, 'responsive_view_mode', 'desktop', 3])
+
+        _gaq.push([method('_setCustomVar'), 2, 'login_status', '0', 2]);
+
+      _gaq.push([method('_trackPageview')])
+    }
+
+for(var i = 0, l = accounts.length; i < l; i++) {
+  var account = accounts[i]
+  gaInit(account)
+}
+
+
+;(function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+})()
+</script>
+
+
+
+
+
+
+
+
+    <!-- sindar21b-docker-->
+
+  <script>_SPLITTEST=''</script>
+</body>
+
+</html>
+
